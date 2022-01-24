@@ -3,11 +3,16 @@ import React from "react";
 import Navigation from "./Navigation";
 import Background from "./Background";
 import Content from "./Content";
+import starlink from "../images/starlink.png";
 
 function App() {
   return (
     <div>
-      <Background>
+      <Background
+        style={{
+          backgroundImage: `url(${starlink})`,
+        }}
+      >
         <div className="container">
           <Navigation />
           <Content />
