@@ -10,7 +10,7 @@ function Navigation() {
           <img src={logo} alt="space x logo" />
         </figure>
         <div className="menu">
-          <i className="fas fa-bars"></i>
+          <i className="fas fa-bars fa-lg"></i>
         </div>
       </nav>
     </div>
