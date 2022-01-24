@@ -22,7 +22,7 @@ ul {
   margin-top: 0.875rem;
 }
 
-ul:last-child {
+li:last-child {
   padding: 0;
 }
 
@@ -33,4 +33,12 @@ li {
 
 li:hover {
   color: rgb(180, 179, 179);
+}
+
+/* Media Queries */
+
+@media (min-width: 600px) {
+  li {
+    padding-right: 3rem;
+  }
 }

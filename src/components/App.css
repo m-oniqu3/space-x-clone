@@ -13,3 +13,11 @@
   width: 90%;
   margin: 0 auto;
 }
+
+/* Media Queries */
+
+@media (min-width: 600px) {
+  .container {
+    width: 85%;
+  }
+}

@@ -58,3 +58,16 @@ small {
 .btn-swipe-left--black::before {
   background-color: rgb(255, 255, 255);
 }
+
+/* Media Queries */
+
+@media (min-width: 600px) {
+  .content {
+    width: 45%;
+    bottom: 130px;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+}
