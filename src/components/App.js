@@ -8,6 +8,7 @@ import transporter from "../images/transporter.png";
 import crs24 from "../images/CRS24.png";
 import postlaunch from "../images/post-launch.png";
 import moon from "../images/moon.png";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -66,6 +67,9 @@ function App() {
           />
         </div>
       </Background>
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 }
