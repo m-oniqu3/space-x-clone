@@ -9,7 +9,7 @@ small {
 }
 
 .title {
-  font-size: 2rem;
+  font-size: 2.3rem;
   font-weight: 700;
 }
 
@@ -26,6 +26,7 @@ small {
   text-decoration: none;
   transition: all 0.5s ease-in-out 0s;
   font-weight: bold;
+  font-size: 0.875rem;
 }
 .btn-swipe-left::before {
   content: "";

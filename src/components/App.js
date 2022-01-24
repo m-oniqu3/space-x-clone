@@ -4,6 +4,7 @@ import Navigation from "./Navigation";
 import Background from "./Background";
 import Content from "./Content";
 import starlink from "../images/starlink.png";
+import transporter from "../images/transporter.png";
 
 function App() {
   return (
@@ -19,9 +20,13 @@ function App() {
         </div>
       </Background>
 
-      <Background>
+      <Background style={{ backgroundImage: `url(${transporter})` }}>
         <div className="container">
-          <Content />
+          <Content
+            subTitle="Recent Launch"
+            title="Transporter-3 Mission"
+            link="Re-watch"
+          />
         </div>
       </Background>
     </div>
