@@ -1,0 +1,47 @@
+.content {
+  position: absolute;
+  bottom: 200px;
+  text-transform: uppercase;
+}
+
+.btn-swipe-left {
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  max-width: 180px;
+  padding: 10px;
+  margin: auto;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out 0s;
+  font-family: lato, serif;
+}
+.btn-swipe-left::before {
+  content: "";
+  transform: translateX(-150%);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 140%;
+  width: 240%;
+  transition: all 0.5s ease-in-out 0s;
+}
+.btn-swipe-left {
+  z-index: 2;
+  position: relative;
+  transition: all 0.5s ease-in-out 0s;
+}
+.btn-swipe-left:hover {
+  color: rgb(0, 0, 0);
+}
+.btn-swipe-left:hover::before {
+  transform: translateX(-50%);
+  z-index: -1;
+}
+.btn-swipe-left--black {
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(255, 255, 255);
+}
+.btn-swipe-left--black::before {
+  background-color: rgb(255, 255, 255);
+}

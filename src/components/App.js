@@ -8,14 +8,14 @@ import starlink from "../images/starlink.png";
 function App() {
   return (
     <div>
-      <Background
-        style={{
-          backgroundImage: `url(${starlink})`,
-        }}
-      >
+      <Background style={{ backgroundImage: `url(${starlink})` }}>
         <div className="container">
           <Navigation />
-          <Content />
+          <Content
+            subTitle="Recent Launch"
+            title="Starlink Mission"
+            link="Re-watch"
+          />
         </div>
       </Background>
 
