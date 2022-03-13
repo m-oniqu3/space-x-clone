@@ -1,0 +1,47 @@
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+figure {
+  width: 35%;
+
+  margin-left: auto;
+}
+
+.menu {
+  margin-left: auto;
+}
+
+img {
+  width: 100%;
+}
+
+i.fas {
+  color: white;
+}
+
+.navlinks {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+  margin-right: auto;
+}
+
+li {
+  font-size: 0.85rem;
+}
+
+/* Media Queries */
+@media (min-width: 962px) {
+  figure {
+    margin: 0;
+    margin-right: auto;
+    width: 15%;
+  }
+  .navlinks {
+    display: flex;
+  }
+}

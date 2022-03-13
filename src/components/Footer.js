@@ -1,9 +1,9 @@
-import "./Footer.css";
+import styled from "./Footer.module.css";
 import React from "react";
 
 function Footer() {
   return (
-    <div className="footer">
+    <div className={styled.footer}>
       <section>
         <p>Spacex &copy; 2022</p>
         <ul>
