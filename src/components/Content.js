@@ -8,7 +8,10 @@ function Content(props) {
 
       <div className={styled.title}>{props.title}</div>
 
-      <a class="btn btn-swipe-left btn-swipe-left--black" href="/">
+      <a
+        className={`${styled.btn} ${styled.btnswipeleft} ${styled.btnswipeleftblack}`}
+        href="/"
+      >
         {props.link}
       </a>
     </div>

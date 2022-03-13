@@ -18,7 +18,7 @@ small {
   margin-top: 1rem;
 }
 
-.btn-swipe-left {
+.btnswipeleft {
   display: block;
   overflow: hidden;
   text-align: center;
@@ -29,7 +29,7 @@ small {
   font-weight: bold;
   font-size: 0.875rem;
 }
-.btn-swipe-left::before {
+.btnswipeleft::before {
   content: "";
   transform: translateX(-150%);
   position: absolute;
@@ -39,23 +39,23 @@ small {
   width: 240%;
   transition: all 0.5s ease-in-out 0s;
 }
-.btn-swipe-left {
+.btnswipeleft {
   z-index: 2;
   position: relative;
   transition: all 0.5s ease-in-out 0s;
 }
-.btn-swipe-left:hover {
+.btnswipeleft:hover {
   color: rgb(0, 0, 0);
 }
-.btn-swipe-left:hover::before {
+.btnswipeleft:hover::before {
   transform: translateX(-50%);
   z-index: -1;
 }
-.btn-swipe-left--black {
+.btnswipeleftblack {
   color: rgb(255, 255, 255);
   border: 2px solid rgb(255, 255, 255);
 }
-.btn-swipe-left--black::before {
+.btnswipeleftblack::before {
   background-color: rgb(255, 255, 255);
 }
 
